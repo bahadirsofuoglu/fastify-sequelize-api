@@ -1,0 +1,21 @@
+{
+  "name": "fastify-sequelize-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bahadirsofuoglu",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.4.1",
+    "fastify-cors": "^4.1.0",
+    "fastify-formbody": "^5.0.0",
+    "pg": "^8.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
