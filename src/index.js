@@ -1,7 +1,7 @@
 const fastify = require("fastify");
 const bodyParser = require("fastify-formbody");
 const cors = require("fastify-cors");
-
+require("dotenv").config();
 const app = fastify({ logger: true });
 
 (async () => {
